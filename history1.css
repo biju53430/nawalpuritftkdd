@@ -1,0 +1,470 @@
+body{
+    height: 2000px;
+}
+
+
+
+#capture{
+    background-color: rgb(16, 147, 255);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: 10px;
+        z-index: 10;
+}
+#capture-text{
+    position: fixed;
+    left: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 900;
+    font-size: 40px;
+    top: -10px;
+        z-index: 10;
+}
+#img1{
+    width: 80px;
+    position: fixed;
+    left: 360px;
+        z-index: 10;
+}
+#img2{
+     width: 80px;
+    position: fixed;
+    left: 1200px;
+        z-index: 10;
+}
+#nav-img{
+height: 1px;
+width: 1px;
+   
+}
+#batch{
+    position: relative;
+    top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-align: center;
+
+}
+#box1{
+    height: 1000px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 40px;
+}
+#box2{
+    height: 1000px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 40px;
+}
+#box3{
+    height: 1000px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 40px;
+}
+#box4{
+    height: 1000px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 40px;
+}
+#box5{
+    height: 1500px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 40px;
+}
+#box6{
+    height: 1000px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 40px;
+}
+#batch-img1{
+    width: 50%;
+    height: 500px;
+}
+#batch-img2{
+    width: 50%;
+    height: 480px;
+}
+#title-name{
+    font-size: 30px;
+    position: relative;
+    left: 900px;
+    bottom: 980px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+#date{
+    position: relative;
+    bottom: 1000px;
+    left: 610px;
+}
+#table{
+    position:relative;
+    bottom: 500px;
+    font-size: 20px;
+    left: 600px;
+}
+
+.batch-nav{
+    background-color: rgb(43, 243, 160);
+    height: 35px;
+    width: 100%;
+    display: flex;
+    font-size: 17px;
+    gap: 200px;
+    position: fixed;
+    top: 75px;
+    z-index: 200;
+    left: 0px;
+    right: 0px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800; 
+}
+#a{
+   position: relative;
+   left: 20px;
+   top: 3px;
+  text-decoration: none;
+
+}
+#box1-click{
+
+    height: 200px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    z-index: 300;
+background: transparent;
+}
+#box2-click{
+
+    height: 200px;
+    width: 30px;
+    position: absolute;
+    top: 1050px;
+    z-index: 300;
+background: transparent;
+}
+#box3-click{
+
+    height: 200px;
+    width: 30px;
+    position: absolute;
+    top: 2180px;
+    z-index: 300;
+background: transparent;
+
+}
+#box4-click{
+height: 200px;
+    width: 30px;
+    position: absolute;
+    top: 3240px;
+    z-index: 300;
+background: transparent;
+}
+#box5-click{
+height: 200px;
+    width: 30px;
+    position: absolute;
+    top: 4300px;
+    z-index: 300;
+background: transparent;
+}
+#box6-click{
+height: 200px;
+    width: 30px;
+    position: absolute;
+    top: 5950px;
+    z-index: 300;
+background: transparent;
+}
+#back{
+    height: 30px;
+    width: 200px;
+    background-color: red;
+    z-index: 300;
+    position: fixed;
+top: 45px;
+left: 0px;
+border-radius: 2px;
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    body{
+    height: 5000px;
+}
+
+
+
+#capture{
+    background-color: rgb(16, 147, 255);
+    
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: 10px;
+    z-index: 10;
+}
+#nav-img{
+
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: 10px;
+    z-index: 20;
+    opacity: 0.4;
+}
+#capture-text{
+    position: fixed;
+    left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 900;
+    font-size: 20px;
+    top: 10px;
+ color:black;
+    z-index: 30;
+}
+#img1{
+    width: 80px;
+    position: fixed;
+    left: 360px;
+        z-index: 10;
+}
+#img2{
+     width: 80px;
+    position: fixed;
+    left: 1200px;
+        z-index: 10;
+}
+#nawalpur{
+    position: relative;
+    top: 0px;
+    left: 90px;
+}
+
+
+#batch{
+    position: relative;
+    top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-align: center;
+font-size: 20px;
+}
+#box1{
+    height: 500px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 110px;
+}
+#box2{
+    height: 650px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 110px;
+}
+#box3{
+    height: 750px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 110px;
+}
+#box4{
+    height: 500px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 110px;
+}
+#box5{
+    height: 1100px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 110px;
+}
+#box6{
+    height: 650px;
+    width: 100%;
+    border: solid;
+    border-color: blue;
+    border-radius: 10px;
+    position:relative;
+    top: 110px;
+}
+#batch-img1{
+    width:100%;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+}
+#batch-img2{
+    width: 50%;
+    height: 480px;
+    display: none;
+}
+#title-name{
+    font-size: 20px;
+    position: relative;
+    left: -120px;
+    top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+#date{
+    position: relative;
+    left: 210px;
+}
+#table{
+    position: relative;
+    top: 10px;
+    left: 60px;
+    width: 100px;
+    font-size: 13px;
+}
+
+.batch-nav{
+    background-color: rgb(43, 243, 160);
+    height: 25px;
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    gap: 40px;
+    position: fixed;
+    top: 75px;
+    z-index: 200;
+    left: 0px;
+    right: 0px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800; 
+}
+#a{
+   position: relative;
+   left: 20px;
+   top: 3px;
+  text-decoration: none;
+
+}
+#box1-click{
+
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    z-index: 300;
+background: transparent;
+}
+#box2-click{
+
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    top: 540px;
+    z-index: 300;
+background: transparent;
+}
+#box3-click{
+
+    height: 200px;
+    width: 30px;
+    position: absolute;
+    top: 1240px;
+    z-index: 300;
+background: transparent;
+
+}
+#box4-click{
+height: 200px;
+    width: 30px;
+    position: absolute;
+    top: 2040px;
+    z-index: 300;
+background: transparent;
+}
+#box5-click{
+height: 200px;
+    width: 30px;
+    position: absolute;
+    top: 2590px;
+    z-index: 300;
+background: transparent;
+}
+#box6-click{
+height: 200px;
+    width: 30px;
+    position: absolute;
+    top: 3750px;
+    z-index: 300;
+background: transparent;
+}
+#back{
+    height: 30px;
+    width: 40px;
+    background-color: red;
+    z-index: 300;
+    position: fixed;
+top: 45px;
+left: 0px;
+border-radius: 2px;
+}
+}

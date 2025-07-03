@@ -1,0 +1,283 @@
+body{
+    height: 2000px;
+}
+
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 20;
+}
+#contact{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-weight: 800;
+    font-size: 40px;
+   
+    position: fixed;
+    top: -10px;
+ left: 490px;
+  z-index: 20;
+}
+#logo{
+    position: fixed;
+    top: 0px;
+    width: 80px;
+    left: 350px;
+     z-index: 20;
+}
+#logo1{
+    position: fixed;
+    top: 0px;
+    width: 80px;
+    left: 1170px;
+     z-index: 20;
+}
+#back{
+    background-color: red;
+    height: 35px;
+    width: 200px;
+    position: fixed;
+    top: 45px;
+    border-radius: 10px;
+    text-align: center;
+     z-index: 20;
+}
+#span1{
+      text-decoration: none;
+      font-size: 17px;
+      font-weight: 800;
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      top: 10px;
+      color: black;
+       z-index: 20;
+}
+#span2{
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+#fb-page{
+    position: absolute;
+    top: 170px;
+    font-size: 20px;
+    left: 120px;
+}
+#fb-logo{
+    width: 70px;
+    position: relative;
+    top: 200px;
+    left: 290px;
+}
+#fb-link{
+    position: relative;
+    top: 170px;
+    left: 290px;
+    color: red;
+}
+
+#insta-page{
+    position: relative;
+    top: 220px;
+    font-size: 20px;
+    left: 120px;
+}
+#insta-logo{
+    width: 70px;
+    position: relative;
+    top: 200px;
+    left: 290px;
+}
+#insta-link{
+    position: relative;
+    top: 170px;
+    left: 290px;
+    color: red;
+}
+
+
+#tiktok-page{
+    position: relative;
+    top: 240px;
+    font-size: 20px;
+    left: 120px;
+}
+#tiktok-logo{
+    width: 100px;
+    position: relative;
+    top: 210px;
+    left: 280px;
+}
+#tiktok-link{
+    position: relative;
+    top: 180px;
+    left: 257px;
+    font-size: 15px;
+
+    color: red;
+}
+
+#footer{
+    height: 20px;
+    width: 100%;
+    position: relative;
+    top: 400px;
+    font-size: 10px;
+    background-color: rgb(104, 139, 160);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+   top: 700px;
+ text-align: center;
+    right: 0px;
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    #nav{
+    height: 60px;
+    width: 100%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+}
+#contact{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-weight: 800;
+    font-size: 18px;
+   position: fixed;
+   left: 30px;
+   top: 10px;
+z-index: 10;
+}
+#logo{
+    position: fixed;
+    top: 0px;
+    width: 60px;
+    left:140px;
+    opacity: 0.5;
+}
+#back{
+    background-color: red;
+    height: 20px;
+    width: 100px;
+    position: fixed;
+    top: 50px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 10;
+}
+#span1{
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 800;
+      font-family: 'Times New Roman', Times, serif;
+      position: relative;
+      top: 0px;
+      color: black;
+}
+#span2{
+    font-size: 15px;
+    position: absolute;
+    top: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+#fb-page{
+    position: absolute;
+    top: 110px;
+    font-size: 10px;
+    left: 20px;
+}
+#fb-logo{
+    width: 40px;
+    position: relative;
+    top: 100px;
+    left: 160px;
+}
+#fb-link{
+    position: relative;
+    top: 110px;
+    left: 70px;
+    font-size: 8px;
+    text-decoration:underline;
+    color: red;
+}
+
+#insta-page{
+    position: relative;
+    top: 140px;
+    font-size: 10px;
+    left: 15px;
+}
+#insta-logo{
+    width: 50px;
+    position: relative;
+    top: 120px;
+    left: 170px;
+}
+#insta-link{
+    position: relative;
+    top: 130px;
+    left: 90px;
+    font-size: 9px;
+    text-decoration:underline;
+    color: red;
+}
+
+
+#tiktok-page{
+    position: relative;
+    top: 140px;
+    font-size: 10px;
+    left: 15px;
+}
+#tiktok-logo{
+    width: 70px;
+    position: relative;
+    top: 110px;
+    left: 160px;
+}
+#tiktok-link{
+    position: relative;
+    top: 110px;
+    left: 27px;
+    font-size: 9px;
+    text-decoration:underline;
+    color: red;
+}
+
+#footer{
+    height: 20px;
+    width: 100%;
+    position: relative;
+    top: 400px;
+    font-size: 10px;
+    background-color: rgb(104, 139, 160);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+   top: 700px;
+ text-align: center;
+    right: 0px;
+}
+}
+
